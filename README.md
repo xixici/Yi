@@ -17,12 +17,6 @@
 <a href="https://github.com/01-ai/Yi/actions/workflows/build_docker_image.yml">
   <img src="https://github.com/01-ai/Yi/actions/workflows/build_docker_image.yml/badge.svg">
 </a>
-<a href="https://github.com/01-ai/Yi/blob/main/LICENSE">
-  <img src="https://img.shields.io/badge/Code_License-Apache_2.0-lightblue">
-</a>
-<a href="https://github.com/01-ai/Yi/blob/main/MODEL_LICENSE_AGREEMENT.txt">
-  <img src="https://img.shields.io/badge/Model_License-Yi_License-lightblue">
-</a>
 <a href="mailto:oss@01.ai">
   <img src="https://img.shields.io/badge/✉️-yi@01.ai-FFE01B">
 </a>
@@ -34,9 +28,8 @@
 <div align="center">
   <h3 align="center">Building the Next Generation of Open-Source and Bilingual LLMs</h3>
 </div>
-
 <p align="center">
-🤗 <a href="https://huggingface.co/01-ai" target="_blank">Hugging Face</a> • 🤖 <a href="https://www.modelscope.cn/organization/01ai/" target="_blank">ModelScope</a> • ✡️ <a href="https://wisemodel.cn/organization/01.AI" target="_blank">WiseModel</a>
+🤗 <a href="https://huggingface.co/01-ai" target="_blank">Hugging Face</a> • 🤖 <a href="https://www.modelscope.cn/organization/01ai/" target="_blank">ModelScope</a> • 🟣 <a href="https://wisemodel.cn/organization/01.AI" target="_blank">wisemodel</a>
 </p> 
 
 <p align="center">
@@ -44,7 +37,7 @@
 </p> 
 
 <p align="center">
-    👋 Join us on <a href="https://discord.gg/hYUwWddeAu" target="_blank"> 👾 Discord </a> or <a href="https://github.com/01-ai/Yi/issues/43#issuecomment-1827285245" target="_blank"> 💬 WeChat </a>
+    👋 Join us on <a href="https://discord.gg/hYUwWddeAu" target="_blank"> 👾 Discord </a> or <a href="https://github.com/01-ai/Yi-1.5/issues/2" target="_blank"> 💬 WeChat </a>
 </p> 
 
 <p align="center">
@@ -53,6 +46,10 @@
 
 <p align="center">
     📚 Grow at <a href="#learning-hub"> Yi Learning Hub </a>
+</p> 
+
+<p align="center">
+    💪 Learn at <a href="https://01-ai.github.io/"> Yi Tech Blog </a>
 </p> 
 
 <!-- DO NOT REMOVE ME -->
@@ -114,12 +111,13 @@
 - 🙌 Targeted as a bilingual language model and trained on 3T multilingual corpus, the Yi series models become one of the strongest LLM worldwide, showing promise in language understanding, commonsense reasoning, reading comprehension, and more. For example,
   
   - Yi-34B-Chat model **landed in second place (following GPT-4 Turbo)**, outperforming other LLMs (such as GPT-4, Mixtral, Claude) on the AlpacaEval Leaderboard (based on data available up to January 2024).
- 
+
   - Yi-34B model **ranked first among all existing open-source models** (such as Falcon-180B, Llama-70B, Claude) in **both English and Chinese** on various benchmarks, including Hugging Face Open LLM Leaderboard (pre-trained) and C-Eval (based on data available up to November 2023).
   
   - 🙏 (Credits to Llama) Thanks to the Transformer and Llama open-source communities, as they reduce the efforts required to build from scratch and enable the utilization of the same tools within the AI ecosystem.  
 
   <details style="display: inline;"><summary> If you're interested in Yi's adoption of Llama architecture and license usage policy, see  <span style="color:  green;">Yi's relation with Llama.</span> ⬇️</summary> <ul> <br>
+  
   
 > 💡 TL;DR
 > 
@@ -146,10 +144,18 @@
 ## News 
 
 <details>
+  <summary>🔥 <b>2024-07-29</b>: The <a href="https://github.com/Haijian06/Yi/tree/main/Cookbook">Yi Cookbook 1.0 </a> is released, featuring tutorials and examples in both Chinese and English.</summary>
+</details>
+
+<details>
+  <summary>🎯 <b>2024-05-13</b>: The <a href="https://github.com/01-ai/Yi-1.5">Yi-1.5 series models </a> are open-sourced, further improving coding, math, reasoning, and instruction-following abilities.</summary>
+</details>
+
+<details>
   <summary>🎯 <b>2024-03-16</b>: The <code>Yi-9B-200K</code> is open-sourced and available to the public.</summary>
 </details>
 
-<details open>
+<details>
   <summary>🎯 <b>2024-03-08</b>: <a href="https://arxiv.org/abs/2403.04652">Yi Tech Report</a> is published! </summary>
 </details>
 
@@ -228,28 +234,27 @@ If you want to deploy Yi models, make sure you meet the [software and hardware r
 
 ### Chat models
 
-| Model | Download  
-|---|---
-Yi-34B-Chat	| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-34B-Chat)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-34B-Chat/summary)
-Yi-34B-Chat-4bits	| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-34B-Chat-4bits)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-34B-Chat-4bits/summary)
-Yi-34B-Chat-8bits | • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-34B-Chat-8bits) • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-34B-Chat-8bits/summary)
-Yi-6B-Chat| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B-Chat) • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-6B-Chat/summary)
-Yi-6B-Chat-4bits |	• [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B-Chat-4bits)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-6B-Chat-4bits/summary)
-Yi-6B-Chat-8bits	|  • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B-Chat-8bits) • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-6B-Chat-8bits/summary)
-
+| Model | Download  |
+|---|---|
+|Yi-34B-Chat	| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-34B-Chat)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-34B-Chat/summary)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-34B-Chat) |
+|Yi-34B-Chat-4bits	| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-34B-Chat-4bits)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-34B-Chat-4bits/summary)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-34B-Chat-4bits) |
+|Yi-34B-Chat-8bits | • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-34B-Chat-8bits)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-34B-Chat-8bits/summary)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-34B-Chat-8bits) |
+|Yi-6B-Chat| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B-Chat)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-6B-Chat/summary)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-6B-Chat) |
+|Yi-6B-Chat-4bits | • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B-Chat-4bits)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-6B-Chat-4bits/summary)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-6B-Chat-4bits) |
+|Yi-6B-Chat-8bits	| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B-Chat-8bits)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-6B-Chat-8bits/summary)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-6B-Chat-8bits) |
 
 <sub><sup> - 4-bit series models are quantized by AWQ. <br> - 8-bit series models are quantized by GPTQ <br> - All quantized models have a low barrier to use since they can be deployed on consumer-grade GPUs (e.g., 3090, 4090). </sup></sub>
 
 ### Base models
 
-| Model | Download | 
+| Model | Download |
 |---|---|
-Yi-34B| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-34B)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-34B/summary)
-Yi-34B-200K|• [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-34B-200K)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-34B-200K/summary)
-Yi-9B|• [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-9B) • [🤖 ModelScope](https://wisemodel.cn/models/01.AI/Yi-9B)
-Yi-9B-200K | • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-9B-200K)   • [🤖 ModelScope](https://wisemodel.cn/models/01.AI/Yi-9B-200K)
-Yi-6B| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-6B/summary)
-Yi-6B-200K	| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B-200K) • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-6B-200K/summary)
+|Yi-34B| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-34B)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-34B/summary)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-6B-Chat-8bits) |
+|Yi-34B-200K|• [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-34B-200K)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-34B-200K/summary)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-6B-Chat-8bits)|
+|Yi-9B|• [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-9B)  • [🤖 ModelScope](https://wisemodel.cn/models/01.AI/Yi-6B-Chat-8bits)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-9B)|
+|Yi-9B-200K | • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-9B-200K)  • [🤖 ModelScope](https://wisemodel.cn/models/01.AI/Yi-9B-200K)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-6B-Chat-8bits) |
+|Yi-6B| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-6B/summary)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-6B-Chat-8bits) |
+|Yi-6B-200K	| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B-200K)  • [🤖 ModelScope](https://www.modelscope.cn/models/01ai/Yi-6B-200K/summary)  • [🟣 wisemodel](https://wisemodel.cn/models/01.AI/Yi-6B-Chat-8bits) |
 
 <sub><sup> - 200k is roughly equivalent to 400,000 Chinese characters.  <br> - If you want to use the previous version of the Yi-34B-200K (released on Nov 5, 2023), run `git checkout 069cd341d60f4ce4b07ec394e82b79e94f656cf` to download the weight. </sup></sub>
 
@@ -298,8 +303,8 @@ Yi-6B-200K	| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B-200K) �
       <li>Non-determinism in re-generation: When attempting to regenerate or sample responses, inconsistencies in the outcomes may occur. The increased diversity can lead to varying results even under similar input conditions.</li>
       <li>Cumulative Error: This occurs when errors in the model's responses compound over time. As the model generates more diverse responses, the likelihood of small inaccuracies building up into larger errors increases, especially in complex tasks like extended reasoning, mathematical problem-solving, etc.</li>
       <li>To achieve more coherent and consistent responses, it is advisable to adjust generation configuration parameters such as temperature, top_p, or top_k. These adjustments can help in the balance between creativity and coherence in the model's outputs.</li>
-</ul>
-</details>
+  </ul>
+  </details>
 
 <p align="right"> [
   <a href="#top">Back to top ⬆️ </a>  ] 
@@ -323,7 +328,7 @@ Yi-6B-200K	| • [🤗 Hugging Face](https://huggingface.co/01-ai/Yi-6B-200K) �
 
 ## Quick start
 
-Getting up and running with Yi models is simple with multiple choices available. 
+> **💡 Tip**: If you want to get started with the Yi model and explore different methods for inference, check out the [Yi Cookbook](https://github.com/01-ai/Yi/tree/main/Cookbook).
 
 ### Choose your path
 
@@ -358,7 +363,7 @@ If you want to explore more features of Yi, you can adopt one of these methods:
 ##### 🙋‍♀️ Run Yi in playground
 
 If you want to chat with Yi with more customizable options (e.g., system prompt, temperature, repetition penalty, etc.), you can try one of the following options:
-  
+
   - [Yi-34B-Chat-Playground](https://platform.lingyiwanwu.com/prompt/playground) (Yi official)
     - Access is available through a whitelist. Welcome to apply (fill out a form in [English](https://cn.mikecrm.com/l91ODJf) or [Chinese](https://cn.mikecrm.com/gnEZjiQ)).
   
@@ -383,7 +388,7 @@ If you want to chat with Yi with more customizable options (e.g., system prompt,
 This tutorial guides you through every step of running **Yi-34B-Chat locally on an A800 (80G)** and then performing inference.
 
 #### Step 0: Prerequisites
- 
+
 - Make sure Python 3.10 or a later version is installed.
 
 - If you want to run other Yi models, see [software and hardware requirements](#deployment).
@@ -485,11 +490,11 @@ You can perform inference with Yi chat or base models as below.
 
   ```bash
   from transformers import AutoModelForCausalLM, AutoTokenizer
-
+  
   MODEL_DIR = "01-ai/Yi-9B"
   model = AutoModelForCausalLM.from_pretrained(MODEL_DIR, torch_dtype="auto")
   tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR, use_fast=False)
-
+  
   input_text = "# write the quick sort algorithm"
   inputs = tokenizer(input_text, return_tensors="pt").to(model.device)
   outputs = model.generate(**inputs, max_length=256)
@@ -508,7 +513,7 @@ You can perform inference with Yi chat or base models as below.
       middle = [x for x in arr if x == pivot]
       right = [x for x in arr if x > pivot]
       return quick_sort(left) + middle + quick_sort(right)
-
+  
   # test the quick sort algorithm
   print(quick_sort([3, 6, 8, 10, 1, 2, 1]))
   ```
@@ -534,7 +539,7 @@ ghcr.io/01-ai/yi:latest
 
 <h4>Step 2: Perform inference</h4>
     <p>You can perform inference with Yi chat or base models as below.</p>
-    
+
 <h5>Perform inference with Yi chat model</h5>
     <p>The steps are similar to <a href="#perform-inference-with-yi-chat-model">pip - Perform inference with Yi chat model</a>.</p>
     <p><strong>Note</strong> that the only difference is to set <code>model_path = '&lt;your-model-mount-path&gt;'</code> instead of <code>model_path = '&lt;your-model-path&gt;'</code>.</p>
@@ -656,7 +661,7 @@ Now you have successfully asked a question to the Yi model and got an answer! �
 
     ```bash
     ...
-
+    
     llama_new_context_with_model: n_ctx      = 2048
     llama_new_context_with_model: freq_base  = 5000000.0
     llama_new_context_with_model: freq_scale = 1
@@ -679,7 +684,7 @@ Now you have successfully asked a question to the Yi model and got an answer! �
     ggml_backend_metal_buffer_type_alloc_buffer: allocated buffer, size =   156.02 MiB, ( 2785.45 / 10922.67)
     Available slots:
     -> Slot 0 - max context: 2048
-
+    
     llama server listening at http://0.0.0.0:8080
     ```
 
@@ -1044,14 +1049,14 @@ Below are detailed minimum VRAM requirements under different batch use cases.
 - <strong>Are there any third-party platforms that support chat functionality for the Yi-34b-200k model?</strong>
   <br>
   If you're looking for third-party Chats, options include [fireworks.ai](https://fireworks.ai/login?callbackURL=https://fireworks.ai/models/fireworks/yi-34b-chat).
-</details>
+  </details>
 
 ### Learning hub
 
 <details>
 <summary> If you want to learn Yi, you can find a wealth of helpful educational resources here. ⬇️</summary> 
 <br> 
-  
+
 Welcome to the Yi learning hub! 
 
 Whether you're a seasoned developer or a newcomer, you can find a wealth of helpful educational resources to enhance your understanding and skills with Yi models, including insightful blog posts, comprehensive video tutorials, hands-on guides, and more.  
@@ -1064,31 +1069,108 @@ With all these resources at your fingertips, you're ready to start your exciting
 
 #### Tutorials
 
-##### English tutorials
+##### Blog tutorials
 
-| Type        | Deliverable                                            |      Date      |     Author     |
-|-------------|--------------------------------------------------------|----------------|----------------|
-| Video     | [Run dolphin-2.2-yi-34b on IoT Devices](https://www.youtube.com/watch?v=NJ89T5mO25Y)           |  2023-11-30  |  [Second State](https://github.com/second-state)  |
-| Blog        | [Running Yi-34B-Chat locally using LlamaEdge](https://www.secondstate.io/articles/yi-34b/)                   |  2023-11-30  |  [Second State](https://github.com/second-state)  |
-| Video       | [Install Yi 34B Locally - Chinese English Bilingual LLM](https://www.youtube.com/watch?v=CVQvj4Wrh4w&t=476s) | 2023-11-05  |  [Fahd Mirza](https://www.youtube.com/@fahdmirza)  |
-| Video       | [Dolphin Yi 34b - Brand New Foundational Model TESTED](https://www.youtube.com/watch?v=On3Zuv27V3k&t=85s) | 2023-11-27  |  [Matthew Berman](https://www.youtube.com/@matthew_berman)  |
+| Deliverable                                                  | Date       | Author                                                       |
+| ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| [使用 Dify、Meilisearch、零一万物模型实现最简单的 RAG   应用（三）：AI 电影推荐](https://mp.weixin.qq.com/s/Ri2ap9_5EMzdfiBhSSL_MQ) | 2024-05-20 | [苏洋](https://github.com/soulteary)                         |
+| [使用autodl服务器，在A40显卡上运行，   Yi-34B-Chat-int4模型，并使用vllm优化加速，显存占用42G，速度18 words-s](https://blog.csdn.net/freewebsys/article/details/134698597?ops_request_misc=%7B%22request%5Fid%22%3A%22171636168816800227489911%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636168816800227489911&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-17-134698597-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-05-20 | [fly-iot](https://gitee.com/fly-iot)                         |
+| [Yi-VL   最佳实践](https://modelscope.cn/docs/yi-vl最佳实践) | 2024-05-20 | [ModelScope](https://github.com/modelscope)                  |
+| [一键运行零一万物新鲜出炉Yi-1.5-9B-Chat大模型](https://mp.weixin.qq.com/s/ntMs2G_XdWeM3I6RUOBJrA) | 2024-05-13 | [Second State](https://github.com/second-state)              |
+| [零一万物开源Yi-1.5系列大模型](https://mp.weixin.qq.com/s/d-ogq4hcFbsuL348ExJxpA) | 2024-05-13 | [刘聪](https://github.com/liucongg)                          |
+| [零一万物Yi-1.5系列模型发布并开源！ 34B-9B-6B   多尺寸，魔搭社区推理微调最佳实践教程来啦！](https://mp.weixin.qq.com/s/3wD-0dCgXB646r720o8JAg) | 2024-05-13 | [ModelScope](https://github.com/modelscope)                  |
+| [Yi-34B   本地部署简单测试](https://blog.csdn.net/arkohut/article/details/135331469?ops_request_misc=%7B%22request%5Fid%22%3A%22171636390616800185813639%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636390616800185813639&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-10-135331469-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-05-13 | [漆妮妮](https://space.bilibili.com/1262370256)              |
+| [驾辰龙跨Llama持Wasm，玩转Yi模型迎新春过大年（上）](https://blog.csdn.net/weixin_53443275/article/details/136091398?ops_request_misc=%7B%22request%5Fid%22%3A%22171636390616800185813639%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636390616800185813639&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-5-136091398-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-05-13 | [Words  worth](https://blog.csdn.net/weixin_53443275?type=blog) |
+| [驾辰龙跨Llama持Wasm，玩转Yi模型迎新春过大年（下篇）](https://blog.csdn.net/weixin_53443275/article/details/136096309) | 2024-05-13 | [Words  worth](https://blog.csdn.net/weixin_53443275?type=blog) |
+| [Ollama新增两个命令，开始支持零一万物Yi-1.5系列模型](https://mp.weixin.qq.com/s/bBgzGJvUqIohodcy9U-pFw) | 2024-05-13 | AI工程师笔记                                                 |
+| [使用零一万物 200K 模型和 Dify 快速搭建模型应用](https://zhuanlan.zhihu.com/p/686774859) | 2024-05-13 | [苏洋](https://github.com/soulteary)                         |
+| [(持更) 零一万物模型折腾笔记：社区 Yi-34B 微调模型使用](https://zhuanlan.zhihu.com/p/671549900) | 2024-05-13 | [苏洋](https://github.com/soulteary)                         |
+| [Python+ERNIE-4.0-8K-Yi-34B-Chat大模型初探](https://mp.weixin.qq.com/s/WaygSfn5T8ZPB1mPdGADEQ) | 2024-05-11 | 江湖评谈                                                     |
+| [技术布道   Vue及Python调用零一万物模型和Prompt模板（通过百度千帆大模型平台）](https://blog.csdn.net/ucloud2012/article/details/137187469) | 2024-05-11 | [MumuLab](https://blog.csdn.net/ucloud2012?type=blog)        |
+| [多模态大模型Yi-VL-plus体验 效果很棒](https://zhuanlan.zhihu.com/p/694736111) | 2024-04-27 | [大家好我是爱因](https://www.zhihu.com/people/iamein)        |
+| [使用autodl服务器，两个3090显卡上运行，   Yi-34B-Chat-int4模型，并使用vllm优化加速，显存占用42G，速度23 words-s](https://blog.csdn.net/freewebsys/article/details/134725765?ops_request_misc=%7B%22request%5Fid%22%3A%22171636356716800211598950%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636356716800211598950&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-9-134725765-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-04-27 | [fly-iot](https://gitee.com/fly-iot)                         |
+| [Getting Started with Yi-1.5-9B-Chat](https://www.secondstate.io/articles/yi-1.5-9b-chat/) | 2024-04-27 | [Second State](https://github.com/second-state)              |
+| [基于零一万物yi-vl-plus大模型简单几步就能批量生成Anki图片笔记](https://mp.weixin.qq.com/s/_ea6g0pzzeO4WyYtuWycWQ) | 2024-04-24 | [正经人王同学](https://github.com/zjrwtx)                    |
+| [【AI开发：语言】一、Yi-34B超大模型本地部署CPU和GPU版](https://blog.csdn.net/alarey/article/details/137769471?ops_request_misc=%7B%22request%5Fid%22%3A%22171636168816800227489911%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636168816800227489911&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-16-137769471-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-04-21 | [My的梦想已实现](https://blog.csdn.net/alarey?type=blog)     |
+| [【Yi-34B-Chat-Int4】使用4个2080Ti显卡11G版本，运行Yi-34B模型，5年前老显卡是支持的，可以正常运行，速度   21 words-s，vllm要求算力在7以上的显卡就可以](https://blog.csdn.net/freewebsys/article/details/134754086) | 2024-03-22 | [fly-iot](https://gitee.com/fly-iot)                         |
+| [零一万物大模型部署+微调总结](https://blog.csdn.net/v_wus/article/details/135704126?ops_request_misc=%7B%22request%5Fid%22%3A%22171636168816800227489911%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636168816800227489911&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-18-135704126-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-03-22 | [v_wus](https://blog.csdn.net/v_wus?type=blog)               |
+| [零一万物Yi大模型vllm推理时Yi-34B或Yi-6bchat重复输出的解决方案](https://blog.csdn.net/qq_39667443/article/details/136028776?ops_request_misc=%7B%22request%5Fid%22%3A%22171636168816800227489911%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636168816800227489911&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-6-136028776-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-03-02 | [郝铠锋](https://blog.csdn.net/qq_39667443?type=blog)        |
+| [Yi-34B微调训练](https://blog.csdn.net/lsjlnd/article/details/135336984?ops_request_misc=%7B%22request%5Fid%22%3A%22171636343416800188513953%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636343416800188513953&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-12-135336984-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-03-02 | [lsjlnd](https://blog.csdn.net/lsjlnd?type=blog)             |
+| [实测零一万物Yi-VL多模态语言模型：能准确“识图吃瓜”](https://mp.weixin.qq.com/s/fu4O9XvJ03JhimsEyI-SsQ) | 2024-02-02 | [苏洋](https://github.com/soulteary)                         |
+| [零一万物开源Yi-VL多模态大模型，魔搭社区推理&微调最佳实践来啦！](https://zhuanlan.zhihu.com/p/680098411) | 2024-01-26 | [ModelScope](https://github.com/modelscope)                  |
+| [单卡 3 小时训练 Yi-6B 大模型 Agent：基于 Llama   Factory 实战](https://zhuanlan.zhihu.com/p/678989191) | 2024-01-22 | [郑耀威](https://github.com/hiyouga)                         |
+| [零一科技Yi-34B   Chat大模型环境搭建&推理](https://blog.csdn.net/zzq1989_/article/details/135597181?ops_request_misc=%7B%22request%5Fid%22%3A%22171636168816800227489911%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636168816800227489911&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-8-135597181-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-01-15 | [要养家的程序员](https://blog.csdn.net/zzq1989_?type=blog)   |
+| [基于LLaMA   Factory，单卡3小时训练专属大模型 Agent](https://blog.csdn.net/m0_59596990/article/details/135760285?ops_request_misc=%7B%22request%5Fid%22%3A%22171636343416800188513953%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636343416800188513953&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-10-135760285-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-01-15 | [机器学习社区](https://blog.csdn.net/m0_59596990?type=blog)  |
+| [双卡   3080ti 部署 Yi-34B 大模型 - Gradio + vLLM 踩坑全记录](https://blog.csdn.net/arkohut/article/details/135321242?ops_request_misc=%7B%22request%5Fid%22%3A%22171636168816800227489911%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636168816800227489911&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-10-135321242-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-01-02 | [漆妮妮](https://space.bilibili.com/1262370256)              |
+| [【大模型部署实践-3】3个能在3090上跑起来的4bits量化Chat模型（baichuan2-13b、InternLM-20b、Yi-34b）](https://blog.csdn.net/qq_40302568/article/details/135040985?ops_request_misc=%7B%22request%5Fid%22%3A%22171636168816800227489911%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636168816800227489911&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-30-135040985-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2024-01-02 | [aq_Seabiscuit](https://blog.csdn.net/qq_40302568?type=blog) |
+| [只需 24G   显存，用 vllm 跑起来 Yi-34B 中英双语大模型](https://blog.csdn.net/arkohut/article/details/135274973) | 2023-12-28 | [漆妮妮](https://space.bilibili.com/1262370256)              |
+| [零一万物模型官方   Yi-34B 模型本地离线运行部署使用笔记（物理机和docker两种部署方式），200K 超长文本内容，34B 干翻一众 70B   模型，打榜分数那么高，这模型到底行不行？](https://blog.csdn.net/u014374009/article/details/136327696) | 2023-12-28 | [代码讲故事](https://blog.csdn.net/u014374009?type=blog)     |
+| [LLM -   大模型速递之 Yi-34B 入门与 LoRA 微调](https://blog.csdn.net/BIT_666/article/details/134990402) | 2023-12-18 | [BIT_666](https://bitddd.blog.csdn.net/?type=blog)           |
+| [通过vllm框架进行大模型推理](https://blog.csdn.net/weixin_45920955/article/details/135300561?ops_request_misc=%7B%22request%5Fid%22%3A%22171636343416800188513953%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fblog.%22%7D&request_id=171636343416800188513953&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~times_rank-13-135300561-null-null.nonecase&utm_term=Yi大模型&spm=1018.2226.3001.4450) | 2023-12-18 | [土山炮](https://blog.csdn.net/weixin_45920955?type=blog)    |
+| [CPU 混合推理，非常见大模型量化方案：“二三五六” 位量化方案](https://zhuanlan.zhihu.com/p/671698216) | 2023-12-12 | [苏洋](https://github.com/soulteary)                         |
+| [零一万物模型折腾笔记：官方 Yi-34B 模型基础使用](https://zhuanlan.zhihu.com/p/671387298) | 2023-12-10 | [苏洋](https://github.com/soulteary)                         |
+| [Running Yi-34B-Chat locally using LlamaEdge](https://www.secondstate.io/articles/yi-34b/) | 2023-11-30 | [Second State](https://github.com/second-state)              |
+| [本地运行零一万物 34B 大模型，使用 Llama.cpp &   21G 显存](https://zhuanlan.zhihu.com/p/668921042) | 2023-11-26 | [苏洋](https://github.com/soulteary)                         |
 
-##### Chinese tutorials
+##### GitHub Project
 
-| Type        | Deliverable                                            |      Date      |     Author     |
-|-------------|--------------------------------------------------------|----------------|----------------|
-| GitHub project  | [基于零一万物 Yi 模型和 B 站构建大语言模型高质量训练数据集](https://github.com/zjrwtx/bilibiliQA_databuilder)              |  2024-04-29  |  [正经人王同学](https://github.com/zjrwtx)  |
-| GitHub project  | [基于视频网站和零一万物大模型构建大语言模型高质量训练数据集](https://github.com/zjrwtx/VideoQA_databuilder)              |  2024-04-25  |  [正经人王同学](https://github.com/zjrwtx)  |
-| Blog       | [基于零一万物yi-vl-plus大模型简单几步就能批量生成Anki图片笔记](https://mp.weixin.qq.com/s/_ea6g0pzzeO4WyYtuWycWQ)              |  2024-04-24  |  [正经人王同学](https://github.com/zjrwtx)  |
-| GitHub project  | [基于零一万物yi-34b-chat-200k输入任意文章地址，点击按钮即可生成无广告或推广内容的简要笔记，并生成分享图给好友](https://github.com/zjrwtx/open_summary)              |  2024-04-24  |  [正经人王同学](https://github.com/zjrwtx)  |
-| Blog        | [实测零一万物Yi-VL多模态语言模型：能准确“识图吃瓜”](https://mp.weixin.qq.com/s/fu4O9XvJ03JhimsEyI-SsQ)              |  2024-02-02  |  [苏洋](https://github.com/soulteary)  |
-| Blog        | [本地运行零一万物 34B 大模型，使用 Llama.cpp & 21G 显存](https://zhuanlan.zhihu.com/p/668921042)                  |  2023-11-26  |  [苏洋](https://github.com/soulteary)  |
-| Blog        | [零一万物模型折腾笔记：官方 Yi-34B 模型基础使用](https://zhuanlan.zhihu.com/p/671387298)                           | 2023-12-10 |  [苏洋](https://github.com/soulteary)  |
-| Blog        | [CPU 混合推理，非常见大模型量化方案：“二三五六” 位量化方案](https://zhuanlan.zhihu.com/p/671698216)                  | 2023-12-12 |  [苏洋](https://github.com/soulteary)  |
-| Blog        | [单卡 3 小时训练 Yi-6B 大模型 Agent：基于 Llama Factory 实战](https://zhuanlan.zhihu.com/p/678989191)             | 2024-01-22 | [郑耀威](https://github.com/hiyouga) |
-| Blog        | [零一万物开源Yi-VL多模态大模型，魔搭社区推理&微调最佳实践来啦！](https://zhuanlan.zhihu.com/p/680098411) | 2024-01-26  |  [ModelScope](https://github.com/modelscope)  |
-| Video       | [只需 24G 显存，用 vllm 跑起来 Yi-34B 中英双语大模型](https://www.bilibili.com/video/BV17t4y1f7Ee/)               | 2023-12-28 |  [漆妮妮](https://space.bilibili.com/1262370256)  |
-| Video       | [Yi-VL-34B 多模态大模型 - 用两张 A40 显卡跑起来](https://www.bilibili.com/video/BV1Q5411y7AG/)               | 2023-01-28 |  [漆妮妮](https://space.bilibili.com/1262370256)  |
+| Deliverable                                                  | Date       | Author                                      |
+| ------------------------------------------------------------ | ---------- | ------------------------------------------- |
+| [yi-openai-proxy](https://github.com/soulteary/yi-openai-proxy) | 2024-05-11 | [苏洋](https://github.com/soulteary)        |
+| [基于零一万物 Yi 模型和 B 站构建大语言模型高质量训练数据集](https://github.com/zjrwtx/bilibiliQA_databuilder) | 2024-04-29 | [正经人王同学](https://github.com/zjrwtx)   |
+| [基于视频网站和零一万物大模型构建大语言模型高质量训练数据集](https://github.com/zjrwtx/VideoQA_databuilder) | 2024-04-25 | [正经人王同学](https://github.com/zjrwtx)   |
+| [基于零一万物yi-34b-chat-200k输入任意文章地址，点击按钮即可生成无广告或推广内容的简要笔记，并生成分享图给好友](https://github.com/zjrwtx/open_summary) | 2024-04-24 | [正经人王同学](https://github.com/zjrwtx)   |
+| [Food-GPT-Yi-model](https://github.com/ThisisHubert/FoodGPT-Yi-model) | 2024-04-21 | [Hubert S](https://github.com/ThisisHubert) |
+
+##### Video tutorials
+
+| Deliverable                                                  | Date       | Author                                                       |
+| ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| [Run dolphin-2.2-yi-34b on IoT Devices](https://www.youtube.com/watch?v=NJ89T5mO25Y) | 2023-11-30 | [Second State](https://github.com/second-state)              |
+| [只需 24G 显存，用 vllm 跑起来 Yi-34B 中英双语大模型](https://www.bilibili.com/video/BV17t4y1f7Ee/) | 2023-12-28 | [漆妮妮](https://space.bilibili.com/1262370256)              |
+| [Install Yi 34B Locally - Chinese English Bilingual LLM](https://www.youtube.com/watch?v=CVQvj4Wrh4w&t=476s) | 2023-11-05 | [Fahd Mirza](https://www.youtube.com/@fahdmirza)             |
+| [Dolphin Yi 34b - Brand New Foundational Model TESTED](https://www.youtube.com/watch?v=On3Zuv27V3k&t=85s) | 2023-11-27 | [Matthew Berman](https://www.youtube.com/@matthew_berman)    |
+| [Yi-VL-34B 多模态大模型 - 用两张 A40 显卡跑起来](https://www.bilibili.com/video/BV1Q5411y7AG/) | 2024-01-28 | [漆妮妮](https://space.bilibili.com/1262370256)              |
+| [4060Ti 16G显卡安装零一万物最新开源的Yi-1.5版大语言模型](https://www.bilibili.com/video/BV16i421X7Jx/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-05-14 | [titan909](https://space.bilibili.com/526393761)             |
+| [Yi-1.5: True Apache 2.0 Competitor to LLAMA-3](https://www.youtube.com/watch?v=KCDYrfWeTRc) | 2024-05-13 | [Prompt Engineering](https://www.youtube.com/@engineerprompt) |
+| [Install Yi-1.5 Model Locally - Beats Llama 3 in Various Benchmarks](https://www.youtube.com/watch?v=Ba-G7Il0UkA) | 2024-05-13 | [Fahd Mirza](https://www.youtube.com/@fahdmirza)             |
+| [how to install Ollama and run Yi 6B](https://www.youtube.com/watch?v=4Jnar7OUHqQ) | 2024-05-13 | [Ridaa Davids](https://www.youtube.com/@quantanovabusiness)  |
+| [地表最强混合智能AI助手：llama3_70B+Yi_34B+Qwen1.5_110B](https://www.bilibili.com/video/BV1Xm411C7V1/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-05-04 | [朱扎特](https://space.bilibili.com/494512200?spm_id_from=333.788.0.0) |
+| [ChatDoc学术论文辅助--基于Yi-34B和langchain进行PDF知识库问答](https://www.bilibili.com/video/BV11i421C7B5/?spm_id_from=333.999.0.0&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-05-03 | [朱扎特](https://space.bilibili.com/494512200?spm_id_from=333.788.0.0) |
+| [基于Yi-34B的领域知识问答项目演示](https://www.bilibili.com/video/BV1zZ42177ZA/?spm_id_from=333.999.0.0&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-05-02 | [朱扎特](https://space.bilibili.com/494512200?spm_id_from=333.788.0.0) |
+| [使用RTX4090+GaLore算法 全参微调Yi-6B大模型](https://www.bilibili.com/video/BV1ax4y1U7Ep/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-03-24 | [小工蚂创始人](https://space.bilibili.com/478674499?spm_id_from=333.788.0.0) |
+| [无内容审查NSFW大语言模型Yi-34B-Chat蒸馏版测试,RolePlay,《天龙八部》马夫人康敏,本地GPU,CPU运行](https://www.youtube.com/watch?v=VL-W0TnLCns) | 2024-03-20 | [刘悦的技术博客](https://v3u.cn/)                            |
+| [无内容审查NSFW大语言模型整合包,Yi-34B-Chat,本地CPU运行,角色扮演潘金莲](https://www.youtube.com/watch?v=rBvbgwz3oHM) | 2024-03-16 | [刘悦的技术博客](https://v3u.cn/)                            |
+| [量化 Yi-34B-Chat 并在单卡 RTX 4090 使用 vLLM 部署](https://www.bilibili.com/video/BV1jx421y7xj/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-03-05 | [白鸽巢](https://space.bilibili.com/138938660?spm_id_from=333.788.0.0) |
+| [Yi-VL-34B（5）：使用3个3090显卡24G版本，运行Yi-VL-34B模型，支持命令行和web界面方式，理解图片的内容转换成文字](https://www.bilibili.com/video/BV1BB421z7oA/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-02-27 | [fly-iot](https://gitee.com/fly-iot)                         |
+| [Win环境KoboldCpp本地部署大语言模型进行各种角色扮演游戏](https://www.bilibili.com/video/BV14J4m1e77f/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-02-25 | [魚蟲蟲](https://space.bilibili.com/431981179?spm_id_from=333.788.0.0) |
+| [无需显卡本地部署Yi-34B-Chat进行角色扮演游戏 P2](https://www.bilibili.com/video/BV19v421677y/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-02-23 | [魚蟲蟲](https://space.bilibili.com/431981179?spm_id_from=333.788.0.0) |
+| [【wails】（2）：使用go-llama.cpp 运行 yi-01-6b大模型，使用本地CPU运行，速度还可以，等待下一版本更新](https://www.bilibili.com/video/BV194421F7Fy/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-02-20 | [fly-iot](https://gitee.com/fly-iot)                         |
+| [【xinference】（6）：在autodl上，使用xinference部署yi-vl-chat和qwen-vl-chat模型，可以使用openai调用成功](https://www.bilibili.com/video/BV19Z421z7cv/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-02-06 | [fly-iot](https://gitee.com/fly-iot)                         |
+| [无需显卡本地部署Yi-34B-Chat进行角色扮演游戏 P1](https://www.bilibili.com/video/BV1tU421o7Co/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-02-05 | [魚蟲蟲](https://space.bilibili.com/431981179?spm_id_from=333.788.0.0) |
+| [2080Ti部署YI-34B大模型 xinference-oneapi-fastGPT本地知识库使用指南](https://www.bilibili.com/video/BV1hC411z7xu/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-01-30 | [小饭护法要转码](https://space.bilibili.com/39486865?spm_id_from=333.788.0.0) |
+| [Best Story Writing AI Model - Install Yi 6B 200K Locally on Windows](https://www.youtube.com/watch?v=cZs2jRtl0bs) | 2024-01-22 | [Fahd Mirza](https://www.youtube.com/@fahdmirza)             |
+| [Mac 本地运行大语言模型方法与常见问题指南（Yi 34B 模型+32 GB 内存测试）](https://www.bilibili.com/video/BV1VT4y1b7Th/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-01-21 | [小吴苹果机器人](https://space.bilibili.com/1732749682?spm_id_from=333.788.0.0) |
+| [【Dify知识库】（11）：Dify0.4.9改造支持MySQL，成功接入yi-6b 做对话，本地使用fastchat启动，占8G显存，完成知识库配置](https://www.bilibili.com/video/BV1ia4y1y7JH/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-01-21 | [fly-iot](https://gitee.com/fly-iot)                         |
+| [这位LLM先生有点暴躁,用的是YI-6B的某个量化版,#LLM #大语言模型 #暴躁老哥](https://www.youtube.com/watch?v=eahXJrdtQuc) | 2024-01-20 | [晓漫吧](https://www.youtube.com/@xiaomanba)                 |
+| [大模型推理 NvLink 桥接器有用吗｜双卡 A6000 测试一下](https://www.bilibili.com/video/BV1AW4y1w7DC/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-01-17 | [漆妮妮](https://space.bilibili.com/1262370256)              |
+| [大模型推理 A40 vs A6000 谁更强 - 对比 Yi-34B 的单、双卡推理性能](https://www.bilibili.com/video/BV1aK4y1z7GF/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-01-15 | [漆妮妮](https://space.bilibili.com/1262370256)              |
+| [C-Eval 大语言模型评测基准- 用 LM Evaluation Harness + vLLM 跑起来](https://www.bilibili.com/video/BV1Yw411g7ZL/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-01-11 | [漆妮妮](https://space.bilibili.com/1262370256)              |
+| [双显卡部署 Yi-34B 大模型 - vLLM + Gradio 踩坑记录](https://www.bilibili.com/video/BV1p94y1c7ak/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2024-01-01 | [漆妮妮](https://space.bilibili.com/1262370256)              |
+| [手把手教学！使用 vLLM 快速部署 Yi-34B-Chat](https://www.bilibili.com/video/BV1ew41157Mk/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2023-12-26 | [白鸽巢](https://space.bilibili.com/138938660?spm_id_from=333.788.0.0) |
+| [如何训练企业自己的大语言模型？Yi-6B LORA微调演示 #小工蚁](https://www.bilibili.com/video/BV1uc41117zz/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2023-12-21 | [小工蚂创始人](https://space.bilibili.com/478674499?spm_id_from=333.788.0.0) |
+| [Yi-34B（4）：使用4个2080Ti显卡11G版本，运行Yi-34B模型，5年前老显卡是支持的，可以正常运行，速度 21 words/s](https://www.bilibili.com/video/BV1nj41157L3/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2023-12-02 | [fly-iot](https://gitee.com/fly-iot)                         |
+| [使用autodl服务器，RTX 3090 * 3 显卡上运行， Yi-34B-Chat模型，显存占用60G](https://www.bilibili.com/video/BV1BM411R7ae/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2023-12-01 | [fly-iot](https://gitee.com/fly-iot)                         |
+| [使用autodl服务器，两个3090显卡上运行， Yi-34B-Chat-int4模型，用vllm优化，增加 --num-gpu 2，速度23 words/s](https://www.bilibili.com/video/BV1Hu4y1L7BH/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2023-12-01 | [fly-iot](https://gitee.com/fly-iot)                         |
+| [Yi大模型一键本地部署 技术小白玩转AI](https://www.bilibili.com/video/BV16H4y117md/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2023-12-01 | [技术小白玩转AI](https://space.bilibili.com/3546586137234288?spm_id_from=333.788.0.0) |
+| [01.AI's Yi-6B: Overview and Fine-Tuning](https://www.youtube.com/watch?v=mye-UOkAliQ) | 2023-11-28 | [AI Makerspace](https://www.youtube.com/@AI-Makerspace)      |
+| [Yi 34B Chat LLM outperforms Llama 70B](https://www.youtube.com/watch?v=RYtrF-R5jDc) | 2023-11-27 | [DLExplorer](https://www.youtube.com/@DLExplorers-lg7dt)     |
+| [How to run open source models on mac Yi 34b on m3 Max](https://www.youtube.com/watch?v=GAo-dopkgjI) | 2023-11-26 | [TECHNO PREMIUM](https://www.youtube.com/@technopremium91)   |
+| [Yi-34B - 200K - The BEST & NEW CONTEXT WINDOW KING ](https://www.youtube.com/watch?v=7WBojwwv5Qo) | 2023-11-24 | [Prompt Engineering](https://www.youtube.com/@engineerprompt) |
+| [Yi 34B : The Rise of Powerful Mid-Sized Models - Base,200k & Chat](https://www.youtube.com/watch?v=bWCjwtu_tHs) | 2023-11-24 | [Sam Witteveen](https://www.youtube.com/@samwitteveenai)     |
+| [在IoT设备运行破解版李开复大模型dolphin-2.2-yi-34b（还可作为私有OpenAI API服务器）](https://www.bilibili.com/video/BV1SQ4y18744/?spm_id_from=333.337.search-card.all.click&vd_source=ab85f93e294a2f6be11db57c29c6d706) | 2023-11-15 | [Second State](https://github.com/second-state)              |
+| [Run dolphin-2.2-yi-34b on IoT Devices (Also works as a Private OpenAI API Server)](https://www.youtube.com/watch?v=NJ89T5mO25Y) | 2023-11-14 | [Second State](https://github.com/second-state)              |
+| [How to Install Yi 34B 200K Llamafied on Windows Laptop](https://www.youtube.com/watch?v=enoha4K4HkQ) | 2023-11-11 | [Fahd Mirza](https://www.youtube.com/@fahdmirza)             |
 
 </details>
 
@@ -1107,7 +1189,7 @@ With all these resources at your fingertips, you're ready to start your exciting
     - [Base model performance](#base-model-performance)
       - [Yi-34B and Yi-34B-200K](#yi-34b-and-yi-34b-200k)
       - [Yi-9B](#yi-9b)
- 
+
 ## Ecosystem
 
 Yi has a comprehensive ecosystem, offering a range of tools, services, and models to enrich your experiences and maximize productivity.
@@ -1282,9 +1364,7 @@ Yi-9B is almost the best among a range of similar-sized open-source models (incl
 
 Everyone! 🙌 ✅
 
-- The Yi series models are free for personal usage, academic purposes, and commercial use. All usage must adhere to the [Yi Series Models Community License Agreement 2.1](https://github.com/01-ai/Yi/blob/main/MODEL_LICENSE_AGREEMENT.txt)
-  
-- For free commercial use, you only need to [complete this form](https://www.lingyiwanwu.com/yi-license) to get a Yi Model Commercial License.
+The code and weights of the Yi series models are distributed under the [Apache 2.0 license](https://github.com/01-ai/Yi/blob/main/LICENSE), which means the Yi series models are free for personal usage, academic purposes, and commercial use. 
 
 <p align="right"> [
   <a href="#top">Back to top ⬆️ </a>  ] 
@@ -1319,8 +1399,13 @@ as well as any associated data security concerns.
 
 ### License
 
-The code and weights of the Yi series models are distributed under the [Apache 2.0 license](https://github.com/01-ai/Yi/blob/main/LICENSE).
+The code and weights of the Yi-1.5 series models are distributed under the [Apache 2.0 license](https://github.com/01-ai/Yi/blob/main/LICENSE).
+
+If you create derivative works based on this model, please include the following attribution in your derivative works:
+
+    This work is a derivative of [The Yi Series Model You Base On] by 01.AI, used under the Apache 2.0 License.
 
 <p align="right"> [
   <a href="#top">Back to top ⬆️ </a>  ] 
 </p>
+
